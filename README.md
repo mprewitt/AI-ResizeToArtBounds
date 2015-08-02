@@ -18,6 +18,8 @@ Download the scripts "BatchResizeToArtBounds.js" and "ResizeToArtBounds.js". In 
 How to Use
 ===
 
+**DISCLAIMER: I am a hobbiest, not a professional programmer. While I have tested these scripts on my own system, and am confident they work as described, there is always a chance of a bug.** Please test before using on important files, and be sure you have backups in case something goes wrong.
+
 The scripts should appear in the Adobe Illustrator scripts menu after installation, File menu > Scripts. 
 
 The Batch version prompts for a folder of \*.ai files, and will convert them all. **WARNING: It will run through all files without prompting and without a progress bar. If you have lots of files, it could take a while.**
