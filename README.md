@@ -15,7 +15,7 @@ Download the scripts "BatchResizeToArtBounds.js" and "ResizeToArtBounds.js". In 
 How to Use
 ===
 
-**DISCLAIMER: I am a hobbiest, not a professional programmer. While I have tested these scripts on my own system, and am confident they work as described, there is always a chance of a bug.** Please test before using on important files, and be sure you have backups in case something goes wrong.
+**DISCLAIMER: I wrote this script as a hobbiest. While I have tested these scripts on my own system, and am confident they work as described, there is always a chance of a bug.** Please test before using on important files, and be sure you have backups in case something goes wrong.
 
 The scripts should appear in the Adobe Illustrator scripts menu after installation, under File menu > Scripts. 
 
