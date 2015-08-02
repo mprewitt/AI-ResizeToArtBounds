@@ -17,13 +17,13 @@ How to Use
 
 **DISCLAIMER: I am a hobbiest, not a professional programmer. While I have tested these scripts on my own system, and am confident they work as described, there is always a chance of a bug.** Please test before using on important files, and be sure you have backups in case something goes wrong.
 
-The scripts should appear in the Adobe Illustrator scripts menu after installation, File menu > Scripts. 
+The scripts should appear in the Adobe Illustrator scripts menu after installation, under File menu > Scripts. 
 
-The Batch version prompts for a folder of \*.ai files, and will convert them all. **WARNING: It will run through all files without prompting and without a progress bar. If you have lots of files, it could take a while.**
+The Batch version prompts for a folder of \*.ai files, and will convert them all. **WARNING: It will run through all files without prompting and without a progress bar. If you have lots of files, it could take a while.** Note that the conversion process saves back to the same files, _overwriting them_.
 
 The other version is meant to be run on the active document.
 
-**IMPORTANT NOTE: Files with multiple artboards will have the first artboard resized to encompass the art bounds from all artboards.**
+**IMPORTANT NOTE: Files with multiple artboards will have the first artboard resized to encompass the art bounds from all artboards.** Because this script is especially intended for fixing old stock images and other assets from back in the day when artboard size didn't seem to matter — which were mostly created prior to the multiple artboard feature — it shouldn't be a big problem. But you should be aware of it.
 
 Example
 ===
