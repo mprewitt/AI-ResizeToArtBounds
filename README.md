@@ -36,3 +36,14 @@ Mac OS X preview of AI image **before** artboard resize
 Mac OS X preview of AI image **after** artboard resize
 ![OS X preview of AI image after artboard resize](http://cl.ly/image/2W460L462L0K/Screen%20Shot%202015-08-01%20at%208.38.24%20PM.png)
 
+Version History
+===
+
+1.1 2015-08-06
+* Progress bar
+* Progress bar shows file name of current file
+* Choose file types to process — updated files are currently saved as .ai regardless of source image type; no error checking on this, so be careful
+* Choose how much margin/padding you want around the image
+
+1.0 Initial release
+
