@@ -1,4 +1,5 @@
 // Batch Resize to Art Bounds
+// Version 1.1
 // by Michael Prewitt, michaelprewitt.com
 
 // INSTALLATION:
