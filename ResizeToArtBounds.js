@@ -1,5 +1,5 @@
 // Resize to Art Bounds
-// Version 1.1
+// Version 1.11
 // by Michael Prewitt, michaelprewitt.com
 
 // INSTALLATION:
@@ -13,15 +13,25 @@
 // https://forums.adobe.com/thread/287731 
 // https://forums.adobe.com/thread/939710
 
+// ---------------------------------------
+
 // Make sure we have an open document, or else open one
 if( app.documents.length == 0 ) {
 	fileToProcess = File.openDialog();
 	app.open(fileToProcess);
 }
 
+// Select margin size; default to 20
+var myBorder = -1;
+var myBorderInput = -1;
+while (myBorder < 0 || myBorder > 100 || isNaN(myBorder) ) {
+	myBorderInput = prompt("Size of padding around image, in points (0-100)","20","Padding Size");
+	myBorder = parseInt(myBorderInput);
+}
+
+// Main
 var doc = app.activeDocument;
 
-var myBorder = 20; // Set to width of border desired, in points
 var myVisibleBounds = doc.visibleBounds; // Rect, which is an array;
 
 myVisibleBounds[0] -= myBorder; // left coordinate (use negative values to add artboard)
