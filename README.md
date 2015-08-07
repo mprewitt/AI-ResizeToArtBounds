@@ -12,7 +12,7 @@ The script **ResizeToArtBounds** resizes the artboard of the open document to th
 How to Install
 ===
 
-Download the scripts "BatchResizeToArtBounds.js" and "ResizeToArtBounds.js". In Mac OS X, you would save them in /Applicatons/[Illustrator folder]/Presets/en_US/Scripts. I believe they can also be used in the Windows version, but I don't know the location and I haven't tested them in Windows.
+Download the scripts "BatchResizeToArtBounds.js" and "ResizeToArtBounds.js". In Mac OS X, you would save them in /Applicatons/[Illustrator folder]/Presets/en_US/Scripts. I believe they can also be used in the Windows version, but I don't know the install location and I haven't tested them in Windows.
 
 How to Use
 ===
