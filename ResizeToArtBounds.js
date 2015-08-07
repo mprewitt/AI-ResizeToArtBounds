@@ -1,4 +1,5 @@
 // Resize to Art Bounds
+// by Michael Prewitt, michaelprewitt.com
 
 // INSTALLATION:
 // Install in /Applicatons/[Illustrator folder]/Presets/en_US/Scripts
@@ -20,11 +21,11 @@ if( app.documents.length == 0 ) {
 var doc = app.activeDocument;
 
 var myBorder = 20; // Set to width of border desired, in points
-var myVisibleBounds = doc.visibleBounds; //Rect, which is an array;
+var myVisibleBounds = doc.visibleBounds; // Rect, which is an array;
 
-myVisibleBounds[0] -= myBorder; //left coordinate (use negative values to add artboard)
-myVisibleBounds[1] += myBorder; //ltop coordinate
-myVisibleBounds[2] += myBorder; //right coordinate
-myVisibleBounds[3] -= myBorder; //bottom coordinate (use negative values to add artboard)
+myVisibleBounds[0] -= myBorder; // left coordinate (use negative values to add artboard)
+myVisibleBounds[1] += myBorder; // top coordinate
+myVisibleBounds[2] += myBorder; // right coordinate
+myVisibleBounds[3] -= myBorder; // bottom coordinate (use negative values to add artboard)
 
 doc.artboards[0].artboardRect = myVisibleBounds;
