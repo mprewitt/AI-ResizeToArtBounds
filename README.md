@@ -21,7 +21,7 @@ How to Use
 
 The scripts should appear in the Adobe Illustrator scripts menu after installation, under File menu > Scripts. 
 
-The Batch version prompts for a folder of Adobe Illustrator files, and will convert them all. **WARNING: It will run through all files without prompting. If you have lots of files, it could take a while.** Note that the conversion process saves *.ai files back to the same file document, _overwriting them_. Other file types are saved as *.ai instead of their native format.
+The Batch version prompts for a folder of Adobe Illustrator files, and will convert them all. There is a progress bar. **WARNING: It will run through all files without prompting. If you have lots of files, it could take a while.** Note that the conversion process saves *.ai files back to the same file document, _overwriting them_. Other file types are saved as *.ai instead of their native format.
 
 The non-batch version is meant to be run on the active document. But it should prompt you to open a file if one is not open.
 
