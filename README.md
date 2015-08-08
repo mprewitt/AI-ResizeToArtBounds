@@ -44,6 +44,9 @@ Mac OS X preview of AI image **after** artboard resize
 Version History
 ===
 
+1.11 2015-08-07
+* Minor bug fix
+
 1.1 2015-08-06
 * Progress bar
 * Progress bar shows file name of current file
