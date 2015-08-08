@@ -1,5 +1,5 @@
 // Batch Resize to Art Bounds
-// Version 1.1
+// Version 1.11
 // by Michael Prewitt, michaelprewitt.com
 
 // INSTALLATION:
@@ -19,7 +19,7 @@ sourceFolder = Folder.selectDialog();
 // filesToProcess = sourceFolder.getFiles("*.ai");
 var TypeList = prompt("Enter file types to act on","ai,eps,pdf","File Types");    
 var reg = new RegExp("\.(" + TypeList.replace(/,/g, '|') + ")$", 'i');    
-var filesToProcess = sourceFolder.getFiles(reg)   
+var filesToProcess = sourceFolder.getFiles(reg);
 
 var myBorder = -1;
 var myBorderInput = -1;
