@@ -17,7 +17,7 @@ How to Install
 
 **Install**
 * Mac OS X: Save them in `/Applicatons/[Adobe Illustrator folder]/Presets/en_US/Scripts`.
-* Windows: Save them in `C:\Program Files\Adobe\[Adobe Illustrator folder]\Presets\en_US\Scripts`. (Note: The scripts have been minimally tested them in Windows.)
+* Windows: Save them in `C:\Program Files\Adobe\[Adobe Illustrator folder]\Presets\en_US\Scripts`. (Note: The scripts have been minimally tested in Windows.)
 
 How to Use
 ===
