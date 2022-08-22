@@ -16,8 +16,8 @@ How to Install
 * Download the scripts "BatchResizeToArtBounds.js" and "ResizeToArtBounds.js". 
 
 **Install**
-* Mac OS X: Save them in /Applicatons/[Illustrator folder]/Presets/en_US/Scripts.
-* Windows: I believe they can also be used in the Windows version, but I don't know the install location and I haven't tested them in Windows.
+* Mac OS X: Save them in `/Applicatons/[Adobe Illustrator folder]/Presets/en_US/Scripts`.
+* Windows: Save them in `C:\Program Files\Adobe\[Adobe Illustrator folder]\Presets\en_US\Scripts`. (Note: The scripts have been minimally tested them in Windows.)
 
 How to Use
 ===
